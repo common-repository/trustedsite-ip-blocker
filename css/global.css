@@ -1,0 +1,253 @@
+.shadow {
+    -webkit-box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.3) !important;
+    -moz-box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.3) !important;;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.3) !important;
+}
+
+.filter-btn{
+    height: 30px; 
+    background-color: white; 
+    font-weight: bold
+}
+
+#wpcontent{
+    padding-left: 0px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#main-container, #overview{
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1000px;
+}
+
+/*Overview Page*/
+#chart-container{
+    padding: 20px;
+    background-color: white;
+}
+
+.summary-row{
+    margin-top: 20px;
+}
+
+table.summary-table{
+    color: #323835;
+    height: 200px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+table.summary-table th{
+    padding: 10px;
+}
+table.summary-table th.title1{
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+}
+table.summary-table th.title2{
+    color: #ADAFAE;
+    font-weight: 100;
+    text-align: right;
+    font-size: 11px;
+}
+table.summary-table th.title3{
+    color: red;
+    font-weight: 100;
+    text-align: right;
+    font-size: 12px;
+}
+table.summary-table td.rule-name{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+table.summary-table td.block-count{
+    text-align: right;
+    color: red;
+    padding-right: 10px;
+}
+
+.summary-col{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+
+#overview-cta{
+    background-image: url('/wp-content/plugins/ts-ip-blocker/images/mfes-bg3.png') ;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.red-button{
+    color: white;
+    background-color: #AA0828;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 7px 10px 7px 10px;
+    border-radius: 3px;
+}
+
+#cta-text {
+    color: #53565A;
+    width: 90px !important;
+    position: absolute !important;
+    top: 41px;
+    right: 33px
+}
+
+#get-it{
+    position: absolute;
+    right: 40px;
+    bottom: 65px;
+}
+/*End Overview*/
+
+/*Rules Page*/
+
+#rules-list .title, #new-rule .title{
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+
+#rules-list .subtitle{
+    background-color: white;
+    padding: 12px;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+
+#rules-details-list .rule-detail{
+    background-color: white; padding: 10px;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+
+#rules-details-list .rule-name{
+    text-align: left;
+    font-weight: 100;
+    font-size: 17px;
+}
+#rules-details-list .fa-times-circle{
+    color: gray;
+}
+#rules-details-list .rule-info-item{
+    font-size: 11px;
+}
+#save-rule{
+    margin-bottom: 10px;
+    width: 90%
+}
+
+/*------------------------------------------------*/
+
+#new-rule{
+    background-color: white;
+}
+
+#new-rule .rule-input{
+    margin-top: 15px;
+}
+
+#new-rule .rule-input .input-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-left: 10px;
+}
+#new-rule .rule-input .input-container{
+    padding: 3px 10px 3px 10px;
+}
+#new-rule .rule-input .input-container input{
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid rgba(115, 115, 115, 0.1);
+    border-radius: 2px;
+    width: 100%;
+}
+#new-rule .rule-input .info{
+    font-weight: 100;
+    color: gray;
+    font-size: 10px;
+    padding: 0 10px 3px 10px;
+}
+
+/*End Rules*/
+
+/*Traffic Page*/
+
+#traffic{
+    width: 100%;
+    background-color: white;
+    font-size: 11px;
+}
+#traffic .header{
+    padding: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+#traffic .entry{
+    padding: 10px 8px 10px 12px;
+    font-weight: 100;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+#traffic .entry-detail{
+    padding: 10px 8px 10px 8px;
+    border-bottom: 1px solid rgba(115,115,115, 0.1);
+}
+
+#traffic-filter{
+    font-size: 11px;
+}
+
+/*End Traffic*/
+/*
+.btn{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 2px;
+    border: solid 1px #CBCBCB;
+    background-color: #ECECEC;
+    color: #323835;
+}*/
+
+.h30{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
